@@ -173,11 +173,6 @@ map<pair<int, int>, vector<char> > possible(array<array<char, 9>, 9> &puzzle, se
     return possible;
 }
 
-void hiddenSingles(array<array<char, 9>, 9> puzzle)
-{
-
-}
-
 array<array<char, 9>, 9> solve(array<array<char, 9>, 9> sudoku)
 {
     stack<pair<int,int> > cell;
